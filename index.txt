@@ -1,244 +1,721 @@
-Pixology - Building Digital Product
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>elmri agency</title>
 
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-#---------- HEADER ----------#
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-Pixology
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
-aria-label="close menu"
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
 
-<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+</head>
 
-Home
-Services
-Features
-Portfolio
-Blog
+<body id="top">
 
-aria-label="open menu"
+  <!-- 
+    - #HEADER
+  -->
 
-<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+  <header class="header" data-header>
+    <div class="container">
 
-Let’s Talk 👋
+      <a href="#" class="logo">elmri agency</a>
 
+      <nav class="navbar" data-navbar>
 
+        <div class="wrapper">
+          <a href="#" class="logo">elmri agency</a>
 
-#---------- HERO ----------#
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
 
-Building Digital Product, Brand and Experience
+        <ul class="navbar-list">
 
-At Pixology we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Principal</a>
+          </li>
 
-How It Works
+          <li class="navbar-item">
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
 
-aria-label="pixology promo"
-<ion-icon name="play-outline" aria-hidden="true"></ion-icon>
-Behind the scenes
+          <li class="navbar-item">
+            <a href="#feature" class="navbar-link" data-nav-link>Features</a>
+          </li>
 
---color: hsl(241, 77%, 63%)
-<ion-icon name="logo-facebook"></ion-icon>
-Facebook
+          <li class="navbar-item">
+            <a href="#project" class="navbar-link" data-nav-link></a>
+          </li>
 
---color: hsl(0, 100%, 50%)
-<ion-icon name="logo-youtube"></ion-icon>
-Youtube
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link><h3>العربية 
+            </h3></a>
+          </li>
 
---color: hsl(203, 89%, 53%)
-<ion-icon name="logo-twitter"></ion-icon>
-Twitter
+        </ul>
 
-alt =  hero banner
+      </nav>
 
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
 
+      <a href="#" class="btn btn-primary has-before has-after">Contactez-nous ??</a>
 
-#---------- SERVICE ----------#
+      <div class="overlay" data-nav-toggler data-overlay></div>
 
-Our Services
+    </div>
+  </header>
 
-Managing you business with our best service
 
---color: 174, 77%, 50%
 
-alt = service icon
-Product Management
 
---color: 267, 76%, 57%
-Web & Mobile Development
 
---color: 17, 100%, 68%
-Fast Customer Support
+  <main>
+    <article>
 
---color: 343, 98%, 60%
-Human Resources
+      <!-- 
+        - #HERO
+      -->
 
---color: 210, 100%, 53%
-Design and Vreatives
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
 
---color: 157, 89%, 44%
-Meketing and Communication
+          <div class="hero-content">
 
---color: 52, 98%, 50%
-Business Development
+            <h1 class="h1 hero-title">
+              Cr饲 des , <span class="has-before">produits</span>, des marques et des exp鲩ences num鲩ques.
+            </h1>
 
---color: 203, 97%, 75%
-04 More Service
+            <p class="hero-text">
+              Notre 鱵ipe est compos饠de professionnels en strat駩e marketing digital, communication digitale, web designers, graphistes et d鶥loppeurs web, nous savons transformer les opportunit鳠digital en v鲩tables op鲡tions de cr顴ion de business.
+            </p>
 
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            <div class="wrapper">
+              <a href="#" class="btn btn-primary has-before has-after">How It Works</a>
 
+              <button class="hero-btn" aria-label="pixology promo">
+                <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
 
+                <span class="span">Behind the scenes</span>
+              </button>
+            </div>
 
-#---------- FEATURE ----------#
+            <ul class="social-list">
 
-alt = feature banner
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(241, 77%, 63%);">
+                  <ion-icon name="logo-facebook"></ion-icon>
 
-Why Choose us
+                  <span class="span">Facebook</span>
+                </a>
+              </li>
 
-Specialist in aviding clients of financial challenges
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(0, 100%, 50%);">
+                  <ion-icon name="logo-youtube"></ion-icon>
 
---color: 174, 77%, 50%
-<ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                  <span class="span">Youtube</span>
+                </a>
+              </li>
 
-Fast working process
+              <li>
+                <a href="#" class="social-link" style="--color: hsl(203, 89%, 53%);">
+                  <ion-icon name="logo-twitter"></ion-icon>
 
-At Pixology we specialize in designing, building, shipping and scaling beautifu.
+                  <span class="span">Twitter</span>
+                </a>
+              </li>
 
---color: 241, 77%, 63%;
-<ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+            </ul>
 
-Didicated team
+          </div>
 
---color: 343, 98%, 60%;
-<ion-icon name="headset-sharp" aria-hidden="true"></ion-icon>
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="794" height="637" alt="hero banner" class="w-100">
+          </figure>
 
-24/7 hours support
+        </div>
+      </section>
 
 
 
-#---------- PROJECT ----------#
 
-Projects
 
-Pixology complete project
+      <!-- 
+        - #SERVICE
+      -->
 
-Website
-Landing Page
-iOS App
-Landing Page
-Branding Design
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
 
-alt = Book art design
+          <p class="section-subtitle has-before text-center">Services</p>
 
-Book art design
-Branding
+          <h2 class="h2 section-title text-center">G鲥z votre entreprise avec notre meilleur  <span class="has-before">service
+              </span></h2>
 
-alt = Graphic Design
+          <ul class="grid-list">
 
-Graphic Design
-Design
+            <li>
+              <div class="service-card" style="--color: 174, 77%, 50%">
 
-alt = 3d Digital Art
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
 
-3d Digital Art
+                <h3 class="h3">
+                  <a href="#" class="card-title">Construction et conception didentit頤e marque</a>
+                </h3>
 
-alt = Web Design
+              </div>
+            </li>
 
-Web Design
+            <li>
+              <div class="service-card" style="--color: 267, 76%, 57%">
 
-alt = Mobile App Design
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
 
-Mobile App Design
+                <h3 class="h3">
+                  <a href="#" class="card-title">D鶥loppement Web & Mobile</a>
+                </h3>
 
+              </div>
+            </li>
 
+            <li>
+              <div class="service-card" style="--color: 17, 100%, 68%">
 
-#---------- NEWSLETTER ----------#
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
 
-alt = newsletter banner
+                <h3 class="h3">
+                  <a href="#" class="card-title">Service de confirmation et de gestion de projets</a>
+                </h3>
 
-Get every update
+              </div>
+            </li>
 
-Subscribe newslater get latest updates and deals
+            <li>
+              <div class="service-card" style="--color: 343, 98%, 60%">
 
-placeholder = Enter your mail
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
 
-Subscribe
+                <h3 class="h3">
+                  <a href="#" class="card-title">Marketing num鲩que</a>
+                </h3>
 
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </div>
+            </li>
 
+            <li>
+              <div class="service-card" style="--color: 210, 100%, 53%">
 
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
 
-#---------- BLOG ----------#
+                <h3 class="h3">
+                  <a href="#" class="card-title">Service de design graphique et dimpression</a>
+                </h3>
 
-Blog Post
+              </div>
+            </li>
 
-Popular blog post
+            <li>
+              <div class="service-card" style="--color: 157, 89%, 44%">
 
-alt = Godaddy user flow solution...
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
 
-Development
+                <h3 class="h3">
+                  <a href="#" class="card-title">Campagnes publicitaires</a>
+                </h3>
 
-<ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-July 22, 2022
+              </div>
+            </li>
 
-Godaddy user flow solution...
+            <li>
+              <div class="service-card" style="--color: 52, 98%, 50%">
 
-At Pixology we specialize in designing, building, shipping and scaling beautifu. At Pixology we specialize in designing, building, shipping and scaling beautiful.
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-7.png" width="30" height="30" loading="lazy"
+                    alt="service icon">
+                </div>
 
-alt = Godaddy user flow solution for every individual
+                <h3 class="h3">
+                  <a href="#" class="card-title">Services e-commerce</a>
+                </h3>
 
-July 21, 2020
+              </div>
+            </li>
 
-Godaddy user flow solution for every individual
+           
 
-Business solution for every individual
+          </ul>
 
-How to gain pro experience ar figma update version
+        </div>
+      </section>
 
 
 
-#---------- FOOTER ----------#
 
-About Pixology
 
-A new way to make the payments easy, reliable and 100% secure. claritatem itamconse quat. Exerci tationulla
+      <!-- 
+        - #FEATURE
+      -->
 
-<ion-icon name="logo-youtube"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-skype"></ion-icon>
+      <section class="section feature" id="feature" aria-label="feature">
+        <div class="container">
 
-Usefull Links
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="582" height="585" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
 
-Contact us
-How it Works
-Create
-Explore
-Terms & Services
+          <div class="feature-content">
 
-Community
+            <p class="section-subtitle has-before">"Pourquoi sommes-nous le partenaire id顬 pour vous? 
 
-Help Center
-Partners
-Suggestions
-Blog
-Newsletters
+ </p>
 
-Instagram post
+            <h2 class="h2 section-title">
+              Sp飩aliste dans laccompagnement des clients ࠴ravers les strat駩es dachat 
 
-alt = instagram post
+ <span class="has-before">m餩a</span>
+            </h2>
 
-<ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+            <ul class="feature-list">
 
-&copy; 2022 Pixology. All Rights Reserved by codewithsadee
+              <li>
+                <div class="feature-card">
 
-Terms and conditions
-Privacy policy
-Login / Signup
+                  <div class="card-icon" style="--color: 174, 77%, 50%">
+                    <ion-icon name="rocket-sharp" aria-hidden="true"></ion-icon>
+                  </div>
 
+                  <div>
+                    <h3 class="h3 card-title">Fa篮 de travailler rapide</h3>
 
+                    <p class="card-text">
+                      Elmri Agency vous garantit un service de qualit鬠rapide et efficace
+                    </p>
+                  </div>
 
-#---------- BACK TO TOP ----------#
+                </div>
+              </li>
 
-aria-label="back to top"
+              <li>
+                <div class="feature-card">
 
-<ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+                  <div class="card-icon" style="--color: 241, 77%, 63%;">
+                    <ion-icon name="people-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">ɱuipe d餩饼/h3>
+
+                    <p class="card-text">
+                      Chez Elmri Agency, notre 鱵ipe vous offre les meilleurs services avec une qualit頥xceptionnelle.
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon" style="--color: 343, 98%, 60%;">
+                    <ion-icon name="headset-sharp" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Assistance 24h/24 et 7j/7</h3>
+
+                    <p class="card-text">
+                      Nous vous offrons un support pendant toute une semaine
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+
+          <p class="section-subtitle has-before text-center">Projects</p>
+
+          <h2 class="h2 section-title text-center">
+           Projet complet  <span class="has-before">elmri agency</span>
+          </h2>
+
+          <ul class="filter-list">
+
+            <li>
+              <button class="filter-btn active" data-filter-btn>Website</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn>Landing Page</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn>iOS App</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn>Landing Page</button>
+            </li>
+
+            <li>
+              <button class="filter-btn" data-filter-btn>Branding Design</button>
+            </li>
+
+          </ul>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 835; --height: 429;">
+                  <img src="./assets/images/project-1.jpg" width="835" height="429" loading="lazy" alt="Book art design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Book art design</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Branding</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-2.jpg" width="416" height="429" loading="lazy" alt="Graphic Design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Graphic Design</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Design</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-3.jpg" width="416" height="429" loading="lazy" alt="3d Digital Art"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">3d Digital Art</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Design</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-4.jpg" width="416" height="429" loading="lazy" alt="Web Design"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Design</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Design</a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 429;">
+                  <img src="./assets/images/project-5.jpg" width="416" height="429" loading="lazy"
+                    alt="Mobile App Design" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mobile App Design</a>
+                  </h3>
+
+                  <a href="#" class="card-tag">Design</a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+     
+
+
+
+
+
+      
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <p class="footer-list-title">࠰ropos de elmri agency</p>
+
+          <p class="footer-text">
+             Nous sommes une agence sp飩alis饠dans le marketing digital, le d鶥loppement de marques et la transformation des projets traditionnels en projets num鲩ques.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-skype"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Liens utiles</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">How it Works</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Create</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Explore</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Services</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Community</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help Center</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Partners</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Suggestions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Newsletters</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+         
+
+             
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 20225 elmri agency. All Rights Reserved by elri agency
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms and conditions</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Login / Signup</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn has-after active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
